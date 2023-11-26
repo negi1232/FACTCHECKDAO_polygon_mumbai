@@ -1,0 +1,57 @@
+.election_announcement {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.election_title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.election_description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.election_deadline {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.active_election {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+.timer-1 {
+  border-color: cyan;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 48px;
+}
+.timer-2 {
+  margin: auto;
+  width: 100%;
+  font-size: 16px;
+  color: gray;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}

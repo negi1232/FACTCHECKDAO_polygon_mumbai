@@ -1,0 +1,9 @@
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  height: 50px;
+}
