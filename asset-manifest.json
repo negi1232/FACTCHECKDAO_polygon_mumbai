@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FACTCHECKDAO_polygon_mumbai/static/css/main.8da454e1.css",
-    "main.js": "/FACTCHECKDAO_polygon_mumbai/static/js/main.0eba1bf1.js",
+    "main.js": "/FACTCHECKDAO_polygon_mumbai/static/js/main.979e0361.js",
     "static/js/208.2d8db3b7.chunk.js": "/FACTCHECKDAO_polygon_mumbai/static/js/208.2d8db3b7.chunk.js",
     "static/media/rate6.png": "/FACTCHECKDAO_polygon_mumbai/static/media/rate6.fda3420764da87b33fd3.png",
     "static/media/rate7.png": "/FACTCHECKDAO_polygon_mumbai/static/media/rate7.f88682c3ec1180843b97.png",
@@ -14,11 +14,11 @@
     "static/media/rate0.png": "/FACTCHECKDAO_polygon_mumbai/static/media/rate0.59dde9ae0ec4df84ae00.png",
     "index.html": "/FACTCHECKDAO_polygon_mumbai/index.html",
     "main.8da454e1.css.map": "/FACTCHECKDAO_polygon_mumbai/static/css/main.8da454e1.css.map",
-    "main.0eba1bf1.js.map": "/FACTCHECKDAO_polygon_mumbai/static/js/main.0eba1bf1.js.map",
+    "main.979e0361.js.map": "/FACTCHECKDAO_polygon_mumbai/static/js/main.979e0361.js.map",
     "208.2d8db3b7.chunk.js.map": "/FACTCHECKDAO_polygon_mumbai/static/js/208.2d8db3b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8da454e1.css",
-    "static/js/main.0eba1bf1.js"
+    "static/js/main.979e0361.js"
   ]
 }
