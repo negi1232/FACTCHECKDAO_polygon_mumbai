@@ -47,7 +47,7 @@ function RequestFactcheck_list({contracts, reloadKey}) {
     let history = useNavigate();
     const [request_fc_list, setRequestFc_list] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 2;
+    const itemsPerPage = 5;
     // const pages = Math.ceil(items.length / itemsPerPage);
     let query = useQuery();
     const [pages, setPages] = useState(0);

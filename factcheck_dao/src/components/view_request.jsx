@@ -30,7 +30,8 @@ function ViewRequest({contracts, reloadKey, requestId}) {
             let res2 = await contracts.get_parameter(10);
             let electionLimit = (Number(res2.value) / 10 ** Number(res2.decimals)) * 60 * 60;
             console.log(electionLimit + Number(res.deadline) - Math.floor(new Date().getTime() / 1000));
-            setIsFinished(electionLimit + Number(res.deadline) - Math.floor(new Date().getTime() / 1000));
+            setIsFinished(!!(electionLimit + Number(res.deadline) - Math.floor(new Date().getTime() / 1000)) && !res.is_close);
+            console.log(!(electionLimit + Number(res.deadline) - Math.floor(new Date().getTime() / 1000)) && res.is_close);
         }
         getContract();
     }, [reloadKey]);
@@ -46,7 +47,7 @@ function ViewRequest({contracts, reloadKey, requestId}) {
 
     return (
         <>
-            {isFinished < 0 && <Button onClick={() => handlefinalize(requestId)}>クロージング</Button>}
+            {isFinished && <Button onClick={() => handlefinalize(requestId)}>クロージング</Button>}
             <Row>
                 <Col sm={3}>
                     <div className="thumbnail">
